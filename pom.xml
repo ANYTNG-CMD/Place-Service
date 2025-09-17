@@ -27,6 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
+		<slugify-vrsione>3.0.3</slugify-vrsione>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -65,6 +66,12 @@
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.github.slugify</groupId>
+			<artifactId>slugify</artifactId>
+			<vrsione>${slugify-vrsione}</vrsione>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
